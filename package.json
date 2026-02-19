@@ -1,16 +1,20 @@
 {
-  "name": "storybook-addon-kit",
+  "name": "storybook-addon-vitest-mock-extended",
   "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "description": "vitest-mock-extended",
   "keywords": [
-    "storybook-addon"
+    "storybook-addon",
+    "vitest-mock-extended",
+    "vitest",
+    "mock",
+    "mocking"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "https://github.com/fxsalazar/storybook-addon-vitest-mock-extended"
   },
   "license": "MIT",
-  "author": "package-author",
+  "author": "Felix Salazar <fxsalazar@gmail.com>",
   "type": "module",
   "exports": {
     ".": {
@@ -38,7 +42,6 @@
     "build-storybook": "storybook build",
     "build:watch": "npm run build -- --watch",
     "eject-ts": "zx scripts/eject-typescript.js",
-    "postinstall": "node scripts/welcome.js",
     "format": "prettier --write .",
     "lint": "eslint --cache .",
     "lint:fix": "pnpm lint --fix",
@@ -97,9 +100,17 @@
     ]
   },
   "storybook": {
-    "displayName": "Addon Kit",
+    "displayName": "vitest-mock-extended for Storybook",
     "supportedFrameworks": [
-      "supported-frameworks"
+      "react",
+      "vue",
+      "angular",
+      "web-components",
+      "ember",
+      "html",
+      "svelte",
+      "preact",
+      "react-native"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   },
