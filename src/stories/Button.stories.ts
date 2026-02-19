@@ -1,7 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
-import { Button } from './Button';
-import { fn } from 'storybook/test';
+import { Button, type Extras } from './Button';
+import { expect, fn } from 'storybook/test';
+import { mock } from 'vitest-mock-extended';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta: Meta<typeof Button> = {
@@ -12,6 +13,7 @@ const meta: Meta<typeof Button> = {
     backgroundColor: { control: 'color' },
   },
   args: {
+    extra: mock<Extras>(),
     onClick: fn(),
   },
   tags: ['autodocs'],
@@ -33,6 +35,11 @@ export const Primary: Story = {
   args: {
     primary: true,
     label: 'Button',
+    extra: mock<Extras>({ id: 42, name: 'Test Extra' }),
+  },
+  play: async ({ args, canvas }) => {
+    expect(canvas.getByText(args.extra.id, { exact: false })).toBeInTheDocument();
+    expect(canvas.getByText(args.extra.name, { exact: false })).toBeInTheDocument();
   },
 };
 
