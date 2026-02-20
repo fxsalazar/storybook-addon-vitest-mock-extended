@@ -27,10 +27,3 @@ export const viteFinal: StorybookConfig['viteFinal'] = async (config) => {
 
   return config;
 };
-
-export const previewAnnotations: StorybookConfig['previewAnnotations'] = [path.resolve(dirname, 'preview.js')];
-
-// export const webpack = async (config: unknown) => {
-//   console.log('This addon is augmenting the Webpack config');
-//   return config;
-// };
