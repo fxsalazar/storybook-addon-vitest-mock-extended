@@ -9,6 +9,10 @@
     "mock",
     "mocking"
   ],
+  "homepage": "https://github.com/fxsalazar/storybook-addon-vitest-mock-extended#readme",
+  "bugs": {
+    "url": "https://github.com/fxsalazar/storybook-addon-vitest-mock-extended/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fxsalazar/storybook-addon-vitest-mock-extended.git"
@@ -50,6 +54,9 @@
     "storybook": "storybook dev -p 6006",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "vitest-mock-extended": "^3.1.0"
+  },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
     "@storybook/addon-docs": "next",
@@ -79,9 +86,6 @@
     "vite": "^7.0.5",
     "vitest": "^4.0.18",
     "zx": "^8.7.1"
-  },
-  "dependencies": {
-    "vitest-mock-extended": "^3.1.0"
   },
   "peerDependencies": {
     "storybook": "*",
