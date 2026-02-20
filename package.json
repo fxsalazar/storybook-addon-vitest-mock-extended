@@ -1,5 +1,5 @@
 {
-  "name": "@fxsalazar/storybook-addon-vitest-mock-extended",
+  "name": "storybook-addon-vitest-mock-extended",
   "version": "0.0.4",
   "description": "vitest-mock-extended",
   "keywords": [
