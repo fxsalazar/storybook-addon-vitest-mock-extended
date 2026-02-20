@@ -4,10 +4,11 @@
   "description": "Use vitest-mock-extended in Storybook to create powerful, type-safe mocks for your stories.",
   "keywords": [
     "storybook-addon",
-    "vitest-mock-extended",
+    "test",
     "vitest",
     "mock",
-    "mocking"
+    "mocking",
+    "vitest-mock-extended"
   ],
   "homepage": "https://github.com/fxsalazar/storybook-addon-vitest-mock-extended#readme",
   "bugs": {
