@@ -29,7 +29,7 @@ export default config;
 
 ## Usage
 
-Now you can use vitest-mock-extended in your stories like you would normally do in your tests. The addon will automatically detect and handle any mocks created with vitest-mock-extended.
+Now you can use vitest-mock-extended in your stories like you would normally do in your tests.
 
 ```ts
 // Page.stories.ts
@@ -56,3 +56,5 @@ const meta: Meta<typeof Page> = {
 
 export default meta;
 ```
+
+For more information about how to use vitest-mock-extended, please refer to the [vitest-mock-extended documentation](https://github.com/eratio08/vitest-mock-extended)
