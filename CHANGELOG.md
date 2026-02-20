@@ -1,3 +1,15 @@
+# v0.0.12 (Fri Feb 20 2026)
+
+#### ⚠️ Pushed to `main`
+
+- chore(package): Update keywords in package.json ([@fxsalazar](https://github.com/fxsalazar))
+
+#### Authors: 1
+
+- Felix Salazar ([@fxsalazar](https://github.com/fxsalazar))
+
+---
+
 # v0.0.11 (Fri Feb 20 2026)
 
 #### ⚠️ Pushed to `main`
