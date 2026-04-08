@@ -1,3 +1,15 @@
+# v1.0.0 (Wed Apr 08 2026)
+
+#### 💥 Breaking Change
+
+- chore(deps): upgrade vitest-mock-extended to v4.0.0 [#1](https://github.com/fxsalazar/storybook-addon-vitest-mock-extended/pull/1) ([@fxsalazar](https://github.com/fxsalazar))
+
+#### Authors: 1
+
+- Felix Salazar ([@fxsalazar](https://github.com/fxsalazar))
+
+---
+
 # v0.0.12 (Fri Feb 20 2026)
 
 #### ⚠️ Pushed to `main`
