@@ -1,2 +1,6 @@
+allowBuilds:
+  esbuild: set this to true or false
+minimumReleaseAgeExclude:
+  - vitest-mock-extended@5.0.0
 onlyBuiltDependencies:
   - esbuild
