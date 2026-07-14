@@ -1,3 +1,18 @@
+# v1.0.1 (Tue Jul 14 2026)
+
+#### ⚠️ Pushed to `main`
+
+- chore: enable esbuild in pnpm workspace config (fxsalazar@gmail.com)
+- chore(release): bump version to 5.0.0 (fxsalazar@gmail.com)
+- chore(deps): Upgrade pnpm and refresh lockfile (fxsalazar@gmail.com)
+- chore(deps): bump vitest-mock-extended to v5 (fxsalazar@gmail.com)
+
+#### Authors: 1
+
+- Felix Salazar ([@fxsalazar](https://github.com/fxsalazar))
+
+---
+
 # v1.0.0 (Wed Apr 08 2026)
 
 #### 💥 Breaking Change
