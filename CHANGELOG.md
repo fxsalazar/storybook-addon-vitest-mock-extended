@@ -2,6 +2,26 @@
 
 #### ⚠️ Pushed to `main`
 
+- chore(release): bump version to 5.1.1 (fxsalazar@gmail.com)
+- chore(deps): pin vitest-mock-extended to 5.1.1 (fxsalazar@gmail.com)
+- ci: Update GitHub Actions Node.js versions (fxsalazar@gmail.com)
+- chore: Ignore .npmrc in gitignore (fxsalazar@gmail.com)
+- chore: rollback version to 5.0.0 (fxsalazar@gmail.com)
+- chore: enable esbuild in pnpm workspace config (fxsalazar@gmail.com)
+- chore(release): bump version to 5.0.0 (fxsalazar@gmail.com)
+- chore(deps): Upgrade pnpm and refresh lockfile (fxsalazar@gmail.com)
+- chore(deps): bump vitest-mock-extended to v5 (fxsalazar@gmail.com)
+
+#### Authors: 1
+
+- Felix Salazar ([@fxsalazar](https://github.com/fxsalazar))
+
+---
+
+# v1.0.1 (Sun Aug 02 2026)
+
+#### ⚠️ Pushed to `main`
+
 - chore(deps): pin vitest-mock-extended to 5.1.1 (fxsalazar@gmail.com)
 - ci: Update GitHub Actions Node.js versions (fxsalazar@gmail.com)
 - chore: Ignore .npmrc in gitignore (fxsalazar@gmail.com)
