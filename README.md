@@ -2,10 +2,10 @@
 
 ## Installation
 
-First, install the package.
+First, install the package along with `vitest-mock-extended` (a peer dependency).
 
 ```sh
-npm install --save-dev @fxsalazar/storybook-addon-vitest-mock-extended
+npm install --save-dev @fxsalazar/storybook-addon-vitest-mock-extended vitest-mock-extended
 ```
 
 Then, register it as an addon in `.storybook/main.js`.

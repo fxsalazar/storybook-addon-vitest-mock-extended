@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      vitest-mock-extended:
-        specifier: 5.1.1
-        version: 5.1.1(typescript@5.9.3)(vitest@4.1.10(@types/node@20.19.43)(vite@7.3.6(@types/node@20.19.43)))
     devDependencies:
       '@eslint/js':
         specifier: ^9.36.0
@@ -93,6 +89,9 @@ importers:
       vitest:
         specifier: ^4.0.18
         version: 4.1.10(@types/node@20.19.43)(vite@7.3.6(@types/node@20.19.43))
+      vitest-mock-extended:
+        specifier: 5.1.1
+        version: 5.1.1(typescript@5.9.3)(vitest@4.1.10(@types/node@20.19.43)(vite@7.3.6(@types/node@20.19.43)))
       zx:
         specifier: ^8.7.1
         version: 8.8.5
