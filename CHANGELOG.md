@@ -1,3 +1,15 @@
+# v5.1.3 (Wed Oct 07 2026)
+
+#### ⚠️ Pushed to `main`
+
+- fix(deps): make vitest-mock-extended a peer dependency ([@fxsalazar](https://github.com/fxsalazar))
+
+#### Authors: 1
+
+- Felix Salazar ([@fxsalazar](https://github.com/fxsalazar))
+
+---
+
 # v1.0.1 (Sun Aug 02 2026)
 
 #### ⚠️ Pushed to `main`
